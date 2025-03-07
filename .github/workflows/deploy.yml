@@ -21,6 +21,6 @@ jobs:
 
       - name: Build and push Docker image  
         run: |
-          docker build -t sanjeevi03/demo-react client/Dockerfile
+          docker build -t sanjeevi03/demo-react -f client/Dockerfile client/ 
           docker tag sanjeevi03/demo-react sanjeevi03/demo-react:latest  
           docker push sanjeevi03/demo-react:latest  
