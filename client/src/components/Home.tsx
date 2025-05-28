@@ -1,4 +1,4 @@
 
 export const Home = () => {
-  return <>Home</>  
+  return <>Home 2</>  
 }
